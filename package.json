@@ -1,0 +1,44 @@
+{
+  "name": "validatorio",
+  "version": "1.0.2",
+  "description": "Fast, flexible & lean implementation html validator/extractor. Ultimate tool for frontend developer, crawler, SEO optimize.",
+  "main": "src/validatorio.js",
+  "scripts": {
+    "check:wget": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "bin": {
+    "validatorio": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mage2guru/validatorio.git"
+  },
+  "keywords": [
+    "SEO",
+    "web",
+    "crawler",
+    "html",
+    "nodejs"
+  ],
+  "author": "Le Tuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mage2guru/HtmlValidator/issues"
+  },
+  "homepage": "https://github.com/mage2guru/HtmlValidator#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "commander": "^2.15.0",
+    "colors": "^1.2.1",
+    "webpack": "^3.10.0",
+    "uglifyjs-webpack-plugin": "^1.1.8"
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 4.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Check img tag with alt attribute",
+        "true": "There is {value} img tag(s) without alt attribute",
+        "selector":"img:not([alt])"
+    },
+    {
+        "title": "Check img tag with rel attribute",
+        "true": "There is {value} img tag(s) without rel attribute",
+        "selector":"a:not([rel])"
+    },
+    {
+        "title": "HTML with title",
+        "false": "This html don't have title",
+        "selector":"head title"
+    },
+    {
+        "description": "check HTML with meta description ",
+        "false": "Meta doesn't containt a description" ,
+        "selector":"head meta[name=description]"
+    },
+    {
+        "description": "No more than 15 strong element",
+        "true": "total {value} strong element",
+        "selector":"body strong",
+        "condition":{
+            "greater": 15
+        }
+    }
+]
