@@ -1,6 +1,6 @@
 {
   "name": "validatorio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast, flexible & lean implementation html validator/extractor. Ultimate tool for frontend developer, crawler, SEO optimize.",
   "main": "src/validatorio.js",
   "scripts": {
@@ -29,9 +29,7 @@
   "homepage": "https://github.com/mage2guru/HtmlValidator#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "npm": "^5.7.1"
-  },
-  "devDependencies": {
+    "npm": "^5.7.1",
     "commander": "^2.15.0",
     "colors": "^1.2.1",
     "webpack": "^3.10.0",
