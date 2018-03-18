@@ -10,13 +10,20 @@ npm install validatorio
 ```
 
 - If you need to run the validatorio as a command line tool, you need install it's as global:
-`npm install validatorio -g`
+
+```
+npm install validatorio -g
+```
 
 - Check if validatorio commandline is installed global:
-`validatorio`
+```
+validatorio
+```
 
 - Or installed as local package:
- `node ./node_modules/validatorio/bin/cli.js`
+ ```
+ node ./node_modules/validatorio/bin/cli.js
+ ```
 
 
 ## How to use:
@@ -50,11 +57,10 @@ var result = validatorio.valid(rules,html_need_totest);
 `validatorio -h`
 
 #### Mixin style
- - Free to mixin pipe linux and arguement style
+ - Free to mixin pipe linux and arguement style:
  ``` 
   cat /path/to/input.html | validatorio -o /path/to/output.txt;
   validatorio -i /path/to/input.html > /path/to/output.txt;
-
  ```
 
 ## Customize: 

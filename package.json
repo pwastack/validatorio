@@ -1,6 +1,6 @@
 {
   "name": "validatorio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fast, flexible & lean implementation html validator/extractor. Ultimate tool for frontend developer, crawler, SEO optimize.",
   "main": "src/validatorio.js",
   "scripts": {
