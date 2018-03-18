@@ -40,21 +40,31 @@ var result = validatorio.valid(rules,html_need_totest);
 ### Use linux pipe style 
 
 - Full support most common request library on linux/macos: wget, curl:
-`curl https://www.shopback.sg -s -H 'Cache-Control: no-cache' | validatorio`
+```
+curl https://www.shopback.sg -s -H 'Cache-Control: no-cache' | validatorio
+```
 
 - Full support most common linux commands:
-`cat /path/to/input.html | validatorio > /path/to/output.txt`
+```
+cat /path/to/input.html | validatorio > /path/to/output.txt
+```
 
 - Flexible output: to console, to a file:
-`cat /path/to/input.html | validatorio`
+```
+cat /path/to/input.html | validatorio
+```
 
 #### With command line arguement
  
 - Specicic where to load rules, input html need to valid and where to export the result:
-`validatorio -i /path/to/input.html -o /path/to/output.txt -r /path/to/rules.js`
+```
+validatorio -i /path/to/input.html -o /path/to/output.txt -r /path/to/rules.js
+```
 
 - Display full arguments list with help:
-`validatorio -h`
+```
+validatorio -h
+```
 
 #### Mixin style
  - Free to mixin pipe linux and arguement style:
